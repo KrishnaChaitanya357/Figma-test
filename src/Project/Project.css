@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  background-color: gainsboro;
+}
+
+.web-page {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.content-wrapper {
+  width: 60%;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.cardTitle {
+  background-color: white;
+  color: black;
+  padding: 0.3rem;
+}
+
+.cardText {
+  background-color: white;
+  color: black;
+  padding: 0.3rem;
+}
+
+.card-btn {
+  position: relative;
+  top: 45px;
+}
+
+.close-btn {
+  padding: 1rem;
+  border-radius: 50px;
+  font-size: 30px;
+  background-color: white;
+  color: pink;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.caption {
+  background-color: white;
+  padding: 1rem;
+  width: 159px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.caption h3 {
+  background-color: white;
+  padding: 0.2rem;
+}
+
+.caption h5 {
+  background-color: white;
+  padding: 0.2rem;
+}
+
+.side-toggle-btns {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.side-toggle-btns h3 {
+  background-color: white;
+  padding: 0.4rem;
+}
+
+.toggle1,
+.toggle2 {
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  background-color: green;
+  color: white;
+}
+.Feedback-block {
+  background-color: white;
+  padding: 1rem;
+  width: 159px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Feedback-title {
+  background-color: white;
+  padding: 0.4rem;
+}
+
+.Feedback-btn {
+  background-color: green;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: black;
+}
+.footer {
+  widows: 100vw;
+  padding: 1rem;
+}
+
+.page1,
+.page2,
+.page3,
+.next-btn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: green;
+  color: white;
+}
